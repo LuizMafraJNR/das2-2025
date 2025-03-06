@@ -31,6 +31,32 @@
 
 <br>
 
+## 2. Aula 06/03/2025
+
+IAC - Automatizar. E é a capacidade de provisionar e dar suporte à infraestrutura de computação usando código em vez de configurações e processos manuais.
+
+Pesquisar sobre Tofu e ArdCD(eu acho)
+
+Escrever um teplate usando terraform ou cloud formation para IAC
+
+Servidor com nome = DANGER (Não descartavel)
+
+Um Plano de dados é a máquina ser discartada.
+
+### O que é Acomplamento
+Uma coisa que não consigo substituir com facilidade para outra.
+Exemplo: Qualquer dispositivo que tem uma porta HDMI, ele tem alto acomplamento ou baixo? Baixo pois podemos trocar facilmente, 
+
+AntiPatern: Basta cair o banco de dados que aplicação vai juntor, pois geralmente o banco tem um alto acomplamento com o serviço.
+
+Best Practice: Para resolver o problema do antipatern, basta criar varias replicas e no meio colocar um Load Balancer para quando qualquer maquina que cair do banco tenha uma outra pronta. (Distribuição de carga) E se cair o LoadBalancer? Basta ter duplicação, triplicação (redundancia)
+
+## Frase do dia: 
+<b>FAÇA DESIGN DE SERVIÇO NÃO DE SERVIDORES!</b> 
+<hr>
+
+
+
 
 
 
