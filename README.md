@@ -55,6 +55,28 @@ Best Practice: Para resolver o problema do antipatern, basta criar varias replic
 <b>FAÇA DESIGN DE SERVIÇO NÃO DE SERVIDORES!</b> 
 <hr>
 
+## 3. Aula 10/03/2025
+
+Apenas um pouco da aula passada
+
+### Global Insfrascrutcture
+- AWS Regions;
+    - Conjunto de um ou mais data-centeres
+- Availability Zones
+    - Pode haver 5 data-centers mas eu não enxergo;
+    - Sempre que tiver mais em uma zona sempre vai representar disponibilidade. 
+- AWS Local Zones
+    - Estrutura parecida com uma AZ(mas é menor) Argentinha Buenos Aires; Para que server: rodar servidor de fortnite para tu jogar(computação, storage ou no geral serviços gerais)
+- AWS Data Centers
+    - 
+- AWS Points of presence(PoPs)
+    - Edge location e Regional Edge Cache
+
+Carregar site angular mais rapido, o ultimo.
+
+### Securing Access
+
+
 
 
 
