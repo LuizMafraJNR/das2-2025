@@ -77,6 +77,44 @@ Carregar site angular mais rapido, o ultimo.
 ### Securing Access
 
 
+## 4. Aula 13/03/2025
+- Modelo de responsabilidade compartilhada
+- Principio do privilegio minimo
+- Autenticação
+- Autorização
+- Identity and Access Management
+- 
+
+
+## 5. Aula 17/03/2025
+
+### IAM Policies and permissions
+
+Toda nuvem tem que ter um mecanismo de permissões e grupos.
+Há das polices:
+- Identity-based: Attach to an IAM user group OR role 
+- Resource-based: Fica no recurso
+
+Diferença: na de identidade você coloca a police no zezinho enquanto na de recurso você tem que especificar um  usuario, mesmo que seja um "*" (todo mundo)
+
+### S3
+- Block of Storage
+    - Data is stored on a device in fixed-sized blocks
+- File Storage
+    - Data is stored in a hierarchical structure
+    - File share = Centenas de maquinas trocando de arquivos atraves desses servidores
+- Object Storage
+    - Data is sotred as objects based on attributes and metadata
+    - Dados, apenas 
+
+Serviço mais famoso da AWS
+- Limite 5tb por objeto/arquivo
+
+
+
+
+
+
 
 
 
