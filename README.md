@@ -111,21 +111,57 @@ Serviço mais famoso da AWS
 - Limite 5tb por objeto/arquivo
 
 
+## 6. Aula 20/03/2025
+
+S3 O que ele guarda a gente chama de objetos(metadados)
+Não pode ter dois bucket com o nome igual mesmo que na URI a definição da zona seja diferente.
+Você até pode criar uma pasta mas o S3 não guarda arquivos e sim objetos então ele se torna um prefixo.
+
+Como utilizam o S3
+- Spikes in Demand
+    - Host web content that needs bandwidth to address extreme spikes in demand
+- Static Site
+    - Host a static site that consists of HTML files, images, and videos..
+- Financial Analysis
+    - Store data that other service scan use for analysis
+- Disaster recovery
+    - Support disaster recovery or data backup solutions
 
 
 
+Store objects do S3 agora ele criptografa e quando voce pede para baixa ele descriptografa o arquivo para poder baixar.
+Para subir um arquivos podemos subir pelo AWS(MAXIMO DE 160GB pelo Console, A linha de comando é a forma mais simples de fazer uma copia de arquivo.)
 
+```aws s3 cp arquivoorigem s3://bucketdestino```
 
+Arquivo de 10GB ou 1 TB
+- Para subir precisa de uma internet muito boa;
+- Parelilizar o arquivo(Multiparts[Fatiar em arquivos de tamanho iguail])
+Limite de 5tb um objeto do S3(>5gb obrigatorio separar(aws faz isso))
 
+---
+### General Purpose
+- S3 STANDARD (Mais barato preço de download, mais disponibilidade, preço de armazenar é o mais caro de todos.)
+---
+### Intelligent tiering
+- S3 Intelligent-Tiering()
 
+---
+### Infrequent Access
+(Arquivo que conhecemos o padrão de acesso(Exemplo: Acessar 2 vezes no mes))
 
+#### S3 Standard-IA(Armazenamento mais barato mas o download é mais caro)
 
+#### S3 One Zone IA
+- Perde durabilidade mas é mais barato para guardar e mais caro que o standard para baixar
+---
+### Archive
 
+#### S3 GLACIER DEEP ARCHIVE
+Modelo mais barato de Armazenamento 
 
+### S3 GLACIER FLEXIBLE RETRIEVAL 
+Pode levar horas ou minutos para pegar um arquivo para baixa.Tem que pagar para pegar dnv. Mais caro que o de backup, para baixar pode aumentar
 
-
-
-
-
-
-
+#### S3 Glacier instant Retrieval
+Não posso esperar mintuos
