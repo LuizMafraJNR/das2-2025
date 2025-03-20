@@ -145,6 +145,7 @@ Limite de 5tb um objeto do S3(>5gb obrigatorio separar(aws faz isso))
 ---
 ### Intelligent tiering
 - S3 Intelligent-Tiering()
+ElE CUIDA DE TUDO.
 
 ---
 ### Infrequent Access
@@ -165,3 +166,5 @@ Pode levar horas ou minutos para pegar um arquivo para baixa.Tem que pagar para 
 
 #### S3 Glacier instant Retrieval
 Não posso esperar mintuos
+
+#### S3 on outposts
