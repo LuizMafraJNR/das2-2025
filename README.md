@@ -212,5 +212,10 @@ Configurando CORS no S3
 ]
 ```
 
+
+### Aula 27/03/2025
+
+
+
  
 
