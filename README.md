@@ -214,6 +214,42 @@ Configurando CORS no S3
 
 
 ### Aula 27/03/2025
+index.html
+
+### Aula 03/04/2025
+
+
+Virtual Machines (VMs) -> Amazon Elastic Compute Cloud (EC2)
+    - Provides VMs Server
+    - 
+Containers -> Amazon Elastic Container Service (ECS)
+    Amazon Elastic Kubernetes Service(EKS)
+Virtual Private Servers (VPS) -> Amazon Lightsail
+Plataform as a service (PaaS) -> AWS Elastic Beanstalk
+Serveless -> Lambada, pedaço de um programa
+    AWS Fargate
+
+Escolhendo an AMI
+
+1. Escolhendo AMI based on the following
+- Region 
+
+2. AMI Source;
+- Quick Start: Linux and Microsoft Windows AMIs that are provided by AWS
+- My AMIs: Any AMIs that you create.
+- AWS Marketplace: Prec-configured templates from third parties.
+- Community AMIs: AMIs shared by othres. Use at your own risk.
+
+![Ciclo de vida de um EC2](/imgs/image.png)
+
+#### EC2 Image Builder
+Automatiza a criação, gerenciamento e rodar aplicação.
+
+
+
+
+
+
 
 
 
