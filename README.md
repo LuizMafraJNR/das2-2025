@@ -213,10 +213,10 @@ Configurando CORS no S3
 ```
 
 
-### Aula 27/03/2025
+### 8. Aula 27/03/2025
 index.html
 
-### Aula 03/04/2025
+### 9. Aula 03/04/2025
 
 
 Virtual Machines (VMs) -> Amazon Elastic Compute Cloud (EC2)
@@ -245,7 +245,53 @@ Escolhendo an AMI
 #### EC2 Image Builder
 Automatiza a criação, gerenciamento e rodar aplicação.
 
+Amazon EBS é o hd do servidor.
 
+## 10. Aula 07/04/2025
+
+Amazon FSx for Windows File Server
+![Amazon FSx](/imgs/Captura%20de%20tela%202025-04-07%20191837.png)
+
+EC2 instance user data
+
+quando voce lança uma instancia do ec2, voce pode especificar o user data a rodar em uma script de inicialização(shell script or cloud-init-directive)
+![ec2-user-data](/imgs/ec2-user-data.png)
+
+Retrieving instance metadata
+- Uma metadata é uma informação sobre a sua propria instancia
+- É acessivel via http://169.254.169.254/latest/meta-data/
+- É possivel adquirar por um script de inicialização (user-data)
+![retrieving](/imgs/retieving.png)
+
+Manually running commands best practices
+
+#### Best practive
+- Original data(Rodar manualmente comandos para configurar a instancia [user-data is updated])
+- New User Data -> Copy user data
+- Instance initialization is correct
+
+### Nost Best practive
+Não faça :D
+
+AMI deployment models
+- Basic AMI - Bem basico (Mais acessivel mesmo)
+- Silver AMI - parte dos programas que voce precisa já na imagem e voce usa algum tipo de script ou configuração manual para deixar a maquina do jeito que voce quer
+- Golden AMI - A imagem tem tudo que você precisa e você não precisa fazer nada mais, é uma imagem pronta para uso.
+
+
+Durante o lançamento de uma maquina tem como controlar como a aws vai espalhar as intancias dentro do datacenters.
+- Cluster: HPC
+- Spread: Distribui as instancias de forma aleatória (Sempre disponivel)
+- Partition: Particionamento ou Sharding (Distribui as instancias de forma aleatória, mas com uma restrição de que as instancias não possam estar no mesmo datacenter, mas proximas).
+
+![AMI deployment models](/imgs/deploment.png)
+
+#### Amazon EC2 Purchase models
+- On-Demand
+- Reserved - Nuri 0%
+- Savings Plans - 2$ per hour
+- Amazon EC2 Spot - Leilão de maquina da AWS (Comprar instancia ociosas) - Desconto de até 92%, só que a qualquer comento a quantidade de instancias pode mudar.
+![ec2-purchase](/imgs/purchase-models.png)
 
 
 
