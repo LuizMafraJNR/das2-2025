@@ -294,7 +294,29 @@ Durante o lançamento de uma maquina tem como controlar como a aws vai espalhar 
 ![ec2-purchase](/imgs/purchase-models.png)
 
 
-
+# Segundo Bimestre
+## 11. Aula 05/05
+- VPC
+- CIDR
+- Subnet Pública
+## 12. Aula 12/05
+- Fazer os laboratórios Canvas
+- Guided lab: Creating a Virtual Private Cloud ✔️
+- Challenge (Cafe) lab: Creating a VPC Networking Environment for the Café ✔️
+## 13. Aula 15/05 
+- Fazer os laboratórios Canvas
+- Guided lab: Creating a Virtual Private Cloud a
+- Challenge (Cafe) lab: Creating a VPC Networking Environment for the Café ✔️
+## 14. Aula 19/05
+- VPC Peering -> Rede privada entre duas VPC que permite tráfego usando endereço privado.
+- AWS VPN Site-to-Site ->  Criação de uma conexão segure entre rede on premises e uma VPC publicamente.
+- AWS Direct Connect -> Conexão de rede direcionada
+## 15. Aula 26/05
+- IAM Groups -> Agrupamento de usuários.
+- Roles - AWS STS
+    - Roles -> Permissões temporarias
+    - Sts -> Credencias temporárias para assumar roles.
+- AWS Cognito -> Serviço de autenticação.
 
 
 
